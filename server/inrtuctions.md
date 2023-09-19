@@ -11,13 +11,6 @@ Firstly move to the server or client directory (eg: cd server)
     v. AUTH_PASSWORD=email access password
     vi. APP_URL = http://localhost:8801/api-v1
 
-    Note: I used hotmail account to send verification email,
-     so you can just create one because hotmail account is reliable 
-     in product and has no configuration.
-
-    Alos, change API_URL when you deploy your app else use localhost
-    with the appropriate port number
-
 2. Run npm install to install the packages in each directory
 3. Run npm start to start the server or npm run dev in the client directory
 
