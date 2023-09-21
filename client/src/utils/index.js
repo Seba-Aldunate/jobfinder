@@ -1,5 +1,7 @@
 import axios from "axios";
-const API_URL = "http://localhost:8801/api-v1";
+// const API_URL = "http://localhost:8801/api-v1";
+const API_URL = "https://jobfinder-d848.onrender.com/api-v1";
+
 
 export const API = axios.create({
   baseURL: API_URL,
